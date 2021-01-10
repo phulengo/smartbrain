@@ -113,6 +113,7 @@ class App extends Component {
       };
     });
   };
+
   displayFaceBox = (boxes) => {
     this.setState({ boxes: boxes });
   };
@@ -145,7 +146,7 @@ class App extends Component {
   };
 
   render() {
-    const { imageURL, boxes, route, isSignedIn } = this.state;
+    const { imageURL, boxes, route, isSignedIn } = this.state; // Destructuring
     return (
       <div className="App">
         <Particles className="particles" options={particlesOptions} />
@@ -153,7 +154,7 @@ class App extends Component {
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
         />
-        {route === "Home" ? (
+        {route === "Home" ? ( // Conditionally render components
           <div>
             <Logo />
             <Rank />

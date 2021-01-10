@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kiritojx.github.io/smartbrain-frontend",
-  "name": "smartbrain-frontend",
+  "homepage": "https://kiritojx.github.io/smartbrain",
+  "name": "smartbrain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
